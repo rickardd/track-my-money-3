@@ -1,11 +1,25 @@
 {
   "usesTypeScript": true,
   "usesCssModule": true,
-  "cssPreprocessor": "scss",
+  "cssPreprocessor": "css",
   "testLibrary": "Testing Library",
   "component": {
     "default": {
-      "path": "src/app",
+      "path": "src/app/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": true
+    },
+    "page": {
+      "path": "src/app/pages",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": true
+    },
+    "layout": {
+      "path": "src/app/layout",
       "withStyle": true,
       "withTest": true,
       "withStory": true,
