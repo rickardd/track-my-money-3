@@ -1,5 +1,5 @@
 /* eslint-disable */
-import TransactionTable from './TransactionTable';
+import TransactionTable from "./TransactionTable";
 
 export default {
   title: "TransactionTable",
@@ -8,5 +8,5 @@ export default {
 export const Default = () => <TransactionTable />;
 
 Default.story = {
-  name: 'default',
+  name: "default",
 };
