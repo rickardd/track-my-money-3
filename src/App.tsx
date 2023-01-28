@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import { Counter } from "./features/counter/Counter";
-import LineGraph from "./app/components/LineGraph/LineGraph";
+import LineGraph from "./components/LineGraph/LineGraph";
 import "./App.css";
 
 function App() {
